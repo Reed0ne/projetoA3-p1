@@ -1,0 +1,114 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #451B54,#BD1461,#D01B78,#E43197,#C23DAA);
+}
+
+main.container {
+    background-color: white;
+    width: 600px;
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 25px;
+    box-shadow: rgba(25, 25, 25, 0.807) 0px 7px 29px 0px;
+}
+
+.container .dados_usuario {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container p {
+    text-align: justify;
+    margin-bottom: 5px;
+    
+    padding: 0px 10px;
+    font-size: 14px;
+}
+
+.section_form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+    margin: 10px 0px 0px 100px;
+}
+
+.section_form {
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #F8A480 10%, #D51A7B);
+    color: #D51A7B;
+
+    padding: 15px;
+}
+
+.section_form input {
+    background-image: linear-gradient(to right, #F8A480 3%, #D51A7B);
+    color: #f6ffe9;
+    margin-left: 20px;
+    padding: 5px;
+
+    border-radius: 10px;
+}
+
+.container input#btn_submit {
+    margin-top: 50px;
+    margin-left: 20px;
+    background-image: linear-gradient(to left, #b0156d, #be47f4);
+    color: #FFFFFF;
+    box-shadow: rgba(25, 25, 25, 0.388) 0px 7px 19px 0px;
+    border-radius: 35px;
+    padding: 20px 120px;
+    font-weight: bolder;
+
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.container input#btn_submit:hover {
+    background:#EF314D;
+    color: #F8A480;
+}
+
+.section_form input::placeholder {
+    color: #D51A7B;
+}
+
+.container .image-background {
+    height: 100%;
+    width: 50%;
+    background: purple url(../images/galaxy.gif) no-repeat left bottom;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.container footer {
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+}

@@ -1,0 +1,72 @@
+body {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background: black url(../images/cartoon-space.gif) no-repeat center;
+    background-size: cover;
+}
+
+main {
+    height: 850px;
+    width: 500px;
+
+    background-color: rgba(255, 255, 255, 0.689);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+
+    border-radius: 35px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.561) 0px 18px 36px -18px inset;
+}
+
+main h1 {
+    margin-bottom: 200px;
+    margin-top: 10px;
+    color: #bc3ac3;
+}
+
+div.secao-cadastro {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    background-color: #D51A7B;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    padding: 15px 100px;
+}
+
+div.secao-cadastro input{
+    background-color: #D51A7B;
+    color: #f6ffe9;
+    margin-left: 20px;
+    padding: 5px;
+
+    border-radius: 10px;
+}
+
+input#btn-submit {
+    display: flex;
+    margin-left: 180px;
+    margin-top: 200px;
+    padding: 15px 100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 30px;
+
+    background-image: linear-gradient(to right, #F8A480 10%, #D51A7B);
+    cursor: pointer;
+}
+
+.secao-cadastro input::placeholder{
+    color: white;
+}
+
+footer {
+    color: white;
+    margin-top: 15px;
+}
