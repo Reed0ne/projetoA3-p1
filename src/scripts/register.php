@@ -8,7 +8,7 @@
 
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/register.css">
+    <link rel="stylesheet" href="../styles/registers.css">
 </head>
 <body>
     <main>
@@ -20,7 +20,7 @@
             </div>
             <div class="secao-cadastro">
                 <label for="login">Login: </label>
-                <input type="text" name="login" required placeholder="Nickname para entrar no site">
+                <input type="text" name="login" required placeholder="Digite seu nickname">
             </div>
             <div class="secao-cadastro">
                 <label for="senha">Senha: </label>
