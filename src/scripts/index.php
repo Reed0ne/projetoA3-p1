@@ -13,7 +13,7 @@ session_start();
     <title>Bem-vindo 😎</title>
 
     <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/index_style.css">
+    <link rel="stylesheet" href="../styles/index-styles.css">
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
 </head>
 <body>
