@@ -1,4 +1,4 @@
-CREATE DATABASE projeto_A3;
+CREATE DATABASE bancoa3;
 
 CREATE TABLE login (
 nome VARCHAR(500), 

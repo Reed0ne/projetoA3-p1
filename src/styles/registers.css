@@ -1,0 +1,92 @@
+body {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-image: linear-gradient(to bottom, #451B54,#BD1461,#D01B78,#E43197,#C23DAA);
+}
+
+main {
+    height: 600px;
+    width: 400px;
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+
+    border-radius: 35px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.561) 0px 18px 36px -18px inset;
+}
+
+main h1 {
+    margin-bottom: 100px;
+    margin-top: 10px;
+    color: #D51A7B;
+}
+
+div.secao-cadastro {
+    width: 390px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #F8A480 10%, #D51A7B);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    padding: 8px 35px;
+}
+
+div.secao-cadastro:hover {
+    background-color: #D51A7B;
+    color: #D51A7B;
+
+    transition: 0.3s ease-in-out;
+}
+
+div.secao-cadastro input{
+    background-color: white;
+    color: #85104d;
+    margin-left: 20px;
+    padding: 5px 20px;
+
+    border-radius: 10px;
+}
+
+input#btn-submit {
+    width: 390px;
+    border-radius: 25px;
+    margin-top: 50px;
+    justify-content: end;
+    padding: 15px 100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    background-color: #D51A7B;
+    color: white;
+    cursor: pointer;
+}
+
+input#btn-submit:hover {
+    background-color: #F8A480;
+    color: #85104d;
+
+    transition: 0.5s ease-in-out;
+}
+
+.secao-cadastro input::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.secao-cadastro:hover input{
+    background-image: linear-gradient(to left, #F8A480 10%, #D51A7B);
+    color: black;
+}
+
+footer {
+    color: rgb(0, 0, 0);
+    margin-top: 150px;
+}
