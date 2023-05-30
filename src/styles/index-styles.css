@@ -90,7 +90,8 @@ footer {
 #link-login:hover {
     color: white;
     background-color: #BD1461;
-    transform: scale(1.07);
+    transform: scale(1.17);
+    text-decoration: underline;
 
     transition: ease-in-out 0.4s;
 }
