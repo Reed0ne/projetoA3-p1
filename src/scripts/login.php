@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto A3 - Faculdade</title>
     
-    <link rel="shortcut icon" href="src/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="src/styles/reset.css">
-    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
     <main class="container">
-        <form action="src/scripts/logged.php" method="post">
+        <form action="logged.php" method="post">
             <h1>Login</h1>
             <p>Seja bem-vindo(a)! Faça o login para acessar o nosso querido site :)</p>
             <div class="dados_usuario">

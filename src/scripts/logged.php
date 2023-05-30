@@ -16,7 +16,7 @@ if ($login = $data_user[1] && $password = $data_user[2]){
     $_SESSION['username'] = $data_user[0];
     header('Location: index.php');
 } else {
-    header('Location: ../../login.php');
+    header('Location: login.php');
 }
 
 ?>

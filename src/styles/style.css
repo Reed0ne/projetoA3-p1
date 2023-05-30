@@ -83,6 +83,7 @@ main.container {
 .container input#btn_submit:hover {
     background:#EF314D;
     color: #F8A480;
+    font-weight: 400;
 }
 
 .section_form input::placeholder {

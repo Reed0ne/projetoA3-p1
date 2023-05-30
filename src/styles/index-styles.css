@@ -81,3 +81,16 @@ footer {
     color: rgb(0, 0, 0);
     margin-top: 120px;
 }
+
+#link-login {
+    color: black;
+    padding: 15px;
+}
+
+#link-login:hover {
+    color: white;
+    background-color: #BD1461;
+    transform: scale(1.07);
+
+    transition: ease-in-out 0.4s;
+}

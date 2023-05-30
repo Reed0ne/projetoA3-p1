@@ -10,6 +10,6 @@ $insert = "INSERT INTO login (nome, login, senha)
         VALUES ('$nome', '$login', '$senha')";
 $query = mysqli_query($connection, $insert);
 
-header('Location: ../../login.php')
+header('Location: login.php')
 
 ?>
