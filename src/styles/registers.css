@@ -21,20 +21,32 @@ main {
     justify-content: baseline;
 
     border-radius: 35px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.561) 0px 18px 36px -18px inset;
+    box-shadow: rgb(14, 17, 20) 0px 20px 30px -10px;
 }
 
 main h1 {
-    margin-bottom: 100px;
+    font-weight: 500;
+    font-size: 19px;
+    margin-bottom: 70px;
     margin-top: 10px;
+}
+
+span {
     color: #D51A7B;
+    font-weight: 400;
+}
+
+main p.msg-welcome {
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 60px;
 }
 
 div.secao-cadastro {
     width: 390px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 25px;
-    background-image: linear-gradient(to right, #F8A480 10%, #D51A7B);
+    background: #FA747C;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 
@@ -43,7 +55,7 @@ div.secao-cadastro {
 
 div.secao-cadastro:hover {
     background-color: #D51A7B;
-    color: #D51A7B;
+    color: #FA747C;
 
     transition: 0.3s ease-in-out;
 }
@@ -71,8 +83,8 @@ input#btn-submit {
 }
 
 input#btn-submit:hover {
-    background-color: #F8A480;
-    color: #85104d;
+    background-color: #FA747C;
+    color: #ffffff;
 
     transition: 0.5s ease-in-out;
 }
@@ -82,11 +94,11 @@ input#btn-submit:hover {
 }
 
 .secao-cadastro:hover input{
-    background-image: linear-gradient(to left, #F8A480 10%, #D51A7B);
-    color: black;
+    background-color: #d1cecd;
+    color: rgb(255, 255, 255);
 }
 
 footer {
     color: rgb(0, 0, 0);
-    margin-top: 150px;
+    margin-top: 80px;
 }

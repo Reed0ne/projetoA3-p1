@@ -12,7 +12,8 @@
 </head>
 <body>
     <main>
-        <h1>Cadastro</h1>
+        <h1><span>Cadastro</span></h1>
+        <p class="msg-welcome">Cadastre-se abaixo, <span>seja bem vindo(a)</span> ao nosso site!</p>
         <form action="new_user.php" method="post">
             <div class="secao-cadastro">
                 <label for="name">Nome: </label>

@@ -39,6 +39,7 @@ main.container {
 .container p {
     text-align: justify;
     margin-bottom: 5px;
+    font-weight: 300;
     
     padding: 0px 10px;
     font-size: 14px;
@@ -48,16 +49,11 @@ main.container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     padding: 10px;
     margin: 10px 0px 0px 100px;
-}
-
-.section_form {
     border-radius: 25px;
     background-image: linear-gradient(to right, #F8A480 10%, #D51A7B);
     color: #D51A7B;
-
     padding: 15px;
 }
 
