@@ -21,6 +21,8 @@ session_start();
         <h1>Olá <span> <?php echo $_SESSION['username']; ?> </span></h1>
         <p id="message-welcome">Seja bem-vindo(a) <span><?php echo $_SESSION['username']; ?></span>, espero que você aproveite o site! </p>
         <a href="register.php" id="contact"><p class="text-btn">Cadastro</p></a>
+        <a href="users_list.php" id="list-users"><p class="text-btn">Listar Users</p></a>
+        <a href="new_password.php" id="btn-password"><p class="text-btn">Alterar senha</p></a>
         <a href="logout.php" id="logout"><p class="text-btn">Logout</p></a>
         <footer>
             <p>Criado por Danyel Gian - 2023</p>

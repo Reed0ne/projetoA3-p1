@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.btn-return {
+    color: #914EC7;
+    text-decoration: underline;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.btn-return:hover {
+    color: #e2b2f6;
+    transition: ease-in-out 0.3s;
+}
